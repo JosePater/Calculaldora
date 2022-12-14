@@ -6,6 +6,10 @@ class Calculadora {
     restar(a, b) {
         return a - b;
     }
+
+    multiplicar(a,b) {
+        return a * b;
+    }
 }
 
 var calculadora = new Calculadora();
