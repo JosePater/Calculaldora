@@ -15,6 +15,11 @@ class Calculadora {
         return a / b;
     }
 
+    // Método que el residuo de la división
+    modulo(a,b) {
+        return a % b;
+    }
+
 }
 
 var calculadora = new Calculadora();
